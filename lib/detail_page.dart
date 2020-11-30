@@ -126,6 +126,7 @@ class _DetailPageState extends State<DetailPage> {
       body: Container(
         child: Column(
           children: [
+            // Create HuaweiMap
             Expanded(
               child: Card(
                   shape: RoundedRectangleBorder(
