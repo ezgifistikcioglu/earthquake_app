@@ -1,4 +1,4 @@
-import 'package:earthquake_app/detail_page.dart';
+import 'package:earthquake_app/features/view/detail_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,7 +9,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Eartquake App',
+      debugShowCheckedModeBanner: false,
+      title: 'Earthquake App',
       theme: ThemeData(
         primarySwatch: Colors.purple,
         brightness: Brightness.dark,
@@ -19,5 +20,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
